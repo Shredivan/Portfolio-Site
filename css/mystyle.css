@@ -1,0 +1,49 @@
+body {
+	background:#fff url(../image/Homepage_Background-04.png) 10px 0px;
+	margin-top:10px ;
+}
+
+p{
+	font-size: 25px;
+	line-height: 40px;
+	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+	color: #58595B;
+	letter-spacing:.5px;
+	margin-bottom:20px;
+}
+
+h1{
+	font-size:25px;
+	line-height: 40px;
+	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+	margin-bottom:20px;
+	color:#E51E25;
+}
+ 
+a{
+font-size: 25px;
+line-height: 40px;
+font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+color: #58595B;
+text-decoration: underline;
+letter-spacing:.5px;
+word-spacing: 2px;
+}
+
+/* mouse over link */
+a:hover {
+    color:#E51E25;
+}
+
+/* selected link */
+a:active {
+    color:#E51E25;
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+
