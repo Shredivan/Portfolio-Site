@@ -3,27 +3,31 @@ body {
 	margin-top:11px ;
 }
 
+h1{
+	font-size:26px;
+	font-weight: bold;
+	letter-spacing: .3px;
+	line-height: 40px;
+	font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
+	margin-bottom:20px;
+	color:#E51E25;
+}
+
 p{
 	font-size: 25px;
+	font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
 	line-height: 40px;
-	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+	margin-bottom:20px;
 	color: #58595B;
 	letter-spacing:.5px;
 	margin-bottom:20px;
 }
-
-h1{
-	font-size:25px;
-	line-height: 40px;
-	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
-	margin-bottom:20px;
-	color:#E51E25;
-}
  
 a{
-font-size: 25px;
+font-size: 26px;
 line-height: 40px;
-font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
+margin-bottom:20px;
 color: #58595B;
 text-decoration: underline;
 letter-spacing:.5px;
@@ -42,7 +46,7 @@ a:active {
 
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 1px;
 }
 
 
