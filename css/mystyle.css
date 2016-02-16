@@ -1,16 +1,14 @@
 body {
 	background:#fff url(../image/Homepage_Background-04.png) 10px 0px;
-	margin-top:11px ;
 }
 
 h1{
-	font-size:26px;
+	font-size:40px;
 	font-weight: bold;
 	letter-spacing: .3px;
-	line-height: 40px;
 	font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
-	margin-bottom:20px;
 	color:#E51E25;
+	margin-top:24px;
 }
 
 p{
@@ -34,6 +32,16 @@ letter-spacing:.5px;
 word-spacing: 2px;
 }
 
+.nav a{
+	font-size: 26px;
+	font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
+	color: #58595B;
+	text-decoration: underline;
+	letter-spacing:.5px;
+	word-spacing: 2px;
+	margin-top:28px;
+}
+
 /* mouse over link */
 a:hover {
     color:#E51E25;
@@ -49,3 +57,16 @@ a:active {
   width: 1px;
 }
 
+
+.carousel-control{
+	text-shadow: none;
+	color: red;
+}
+
+.carousel-control.left{
+	background-image: none;
+}
+
+.carousel-control.right{
+	background-image: none;
+}
