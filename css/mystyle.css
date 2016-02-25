@@ -27,20 +27,85 @@ line-height: 40px;
 font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
 margin-bottom:20px;
 color: #58595B;
-text-decoration: underline;
 letter-spacing:.5px;
 word-spacing: 2px;
 }
 
-.nav a{
+p a{
+font-size: 26px;
+line-height: 40px;
+font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
+text-decoration: underline;
+margin-bottom:20px;
+color: #58595B;
+letter-spacing:.5px;
+word-spacing: 2px;
+}
+
+#header{
+	font-size: 58px;
+	font-weight: bold;
+	line-height: 80px;
+	color: #F44336;
+	border-bottom: 1px solid red;
+	margin-bottom: 28px;
+	word-spacing: 6px;
+}
+
+hr{
+	margin: 0;
+	border: 1px solid #F44336;
+}
+
+.carousel{
+	border-top: 1px solid red;
+}
+
+/* nav */
+
+.navbar, 
+.navbar-default, 
+.navbar-static-top{
+	margin-bottom: 1px;
+	margin-top: 8px;
+}
+
+.navbar-default{
+	background-color: transparent;
+	border: 0;
+}
+
+.navbar-default .navbar-brand{
+	color:#F44336;
+}
+
+.navbar-brand{
 	font-size: 26px;
 	font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
-	color: #58595B;
-	text-decoration: underline;
+	font-weight: bold;
+	color:#F44336;
 	letter-spacing:.5px;
 	word-spacing: 2px;
-	margin-top:28px;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
+
+.nav a{
+	font-size: 22px;
+	font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, Sans-serif;
+	color: #F44336;
+	letter-spacing:.5px;
+	word-spacing: 2px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	float: right;
+}
+
+.nav>li>a{
+	padding 0;
+}
+
+/* /nav */
 
 /* mouse over link */
 a:hover {
