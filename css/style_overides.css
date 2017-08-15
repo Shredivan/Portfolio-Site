@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background:#fff url(../image/Homepage_Background-04.png) 10px 0px;
+	font-family: 'Titillium Web', Helvetica, Arial, Sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+}
+
+/* Navigation Styles */
+	.navbar-default{
+		background-color: #E51E25;
+		color: #fff;
+		height: 60px;
+		max-height: 60px;
+		font-weight: 400;
+	}
+	.navbar-default a,
+	.navbar-brand,
+	.navbar-default .navbar-brand,
+	.navbar-default .navbar-nav>li>a{
+		letter-spacing:.5px;
+		word-spacing: 2px;
+		font-size: 24px;
+		text-decoration: none;
+		color: #fff;
+	}
+	.navbar-default a:hover,
+	.navbar-brand:hover,
+	.navbar-default .navbar-brand:hover,
+	.navbar-default .navbar-nav>li>a:hover{
+		text-decoration: underline;
+		color: #fff;
+	}
+	.navbar-brand{
+		font-weight: 600;
+	}
+/* End of Navigation Styles */
+
+/* General Styles */
+	h1{
+		font-size: 40px;
+		font-weight: bold;
+		letter-spacing: .3px;
+		color: #000;
+	}
+	h2{
+		font-size: 30px;
+		line-height: 40px;
+		color: #000;
+	}
+	h3{
+		font-size: 25px;
+		line-height: 40px;
+		color: #000;
+	}
+	p{
+		color: #58595B;
+		letter-spacing: .5px;
+	}
+	a{
+		color: #E51E25;
+		letter-spacing: .5px;
+		word-spacing: 2px;
+		cursor: pointer;
+	}
+	/* mouse over link */
+	a:hover{
+	  color: #E51E25;
+		text-decoration: underline;
+	}
+	/* selected link */
+	a:active{
+	  color: #E51E25;
+		text-decoration: underline;
+	}
+	a:visited{
+		color: #c30007;
+		text-decoration: underline;
+	}
+/* End of General Styles */
+
+/* Utility Styles */
+
+	/* Margins */
+	.margin-top-4{
+		margin-top: 4px;
+	}
+
+	/* Colors */
+	.red{
+		color:#E51E25
+	}
+	.grey{
+		color: #58595B
+	}
+
+/* End of Utility Styles */
+
+/* Panel-cards */
+	.panel-heading{
+		background: url(../image/starskyhutch.png) no-repeat top center;
+		-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+		padding: 0;
+		height: 200px;
+		max-height: 200px;
+	}
+/* End of Panel-cards */
+
+/* Style scrollbar width so that it doesn't knock designs off the grid */
+::-webkit-scrollbar {
+  width: 1px;
+}
