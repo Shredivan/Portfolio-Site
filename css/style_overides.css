@@ -52,13 +52,15 @@ body {
 	}
 	h2{
 		font-size: 30px;
+		font-weight: bold;
 		line-height: 40px;
-		color: #000;
+		color: #58595B;
 	}
 	h3{
 		font-size: 25px;
+		font-weight: bold;
 		line-height: 40px;
-		color: #000;
+		color: #58595B;
 	}
 	p{
 		color: #58595B;
