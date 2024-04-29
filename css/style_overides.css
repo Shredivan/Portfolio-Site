@@ -10,21 +10,25 @@ body {
 }
 
 /* Navigation Styles */
+	.navbar{
+		margin-bottom: 0px;
+	}
 	.navbar-default{
 		background: none;
-		border-bottom: 1px solid #E51E25;
+		border: none;
 		color: #E51E25;
-		height: 60px;
-		max-height: 60px;
+		height: 72px;
+		max-height: 72px;
 		font-weight: 400;
+		margin-top: 42px;
 	}
 	.navbar-default a,
 	.navbar-brand,
 	.navbar-default .navbar-brand,
 	.navbar-default .navbar-nav>li>a{
-		letter-spacing:.5px;
+		letter-spacing:.4px;
 		word-spacing: 2px;
-		font-size: 24px;
+		font-size: 20px;
 		text-decoration: none;
 		color: #E51E25;
 	}
@@ -42,13 +46,12 @@ body {
 
 /* General Styles */
 	h1{
-		font-size: 40px;
+		font-size: 42px;
 		line-height: 60px;
 		font-weight: bold;
-		letter-spacing: .3px;
 		color: #58595B;
-		margin-top: 16px;
-		margin-bottom: 40px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 	h2{
 		font-size: 30px;
@@ -57,14 +60,17 @@ body {
 		color: #58595B;
 	}
 	h3{
-		font-size: 25px;
+		font-size: 24px;
 		font-weight: bold;
 		line-height: 40px;
 		color: #58595B;
 	}
 	p{
 		color: #58595B;
-		letter-spacing: .5px;
+		letter-spacing: .2px;
+		font-size: 20px;
+		line-height: 38px;
+		margin-bottom: 25px;
 	}
 	.introduction a{
 		color: #58595B;
@@ -96,8 +102,11 @@ body {
 /* Utility Styles */
 
 	/* Margins */
-	.margin-top-4{
-		margin-top: 4px;
+	.margin-top-6{
+		margin-top: 6px;
+	}
+	.margin-top-20{
+		margin-top: 20px;
 	}
 
 	/* Colors */
