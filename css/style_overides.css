@@ -108,6 +108,9 @@ body {
 	.margin-top-20{
 		margin-top: 20px;
 	}
+	.margin-left-15{
+		margin-left: 15px;
+	}
 
 	/* Colors */
 	.red{
@@ -131,6 +134,41 @@ body {
 		max-height: 200px;
 	}
 /* End of Panel-cards */
+
+/* Button Styles */
+	button{
+		font-size: 20px;
+	}
+	.primary{
+		color: white;
+		border: 1px solid #E51E25;
+		border-radius: 4px;
+		background-color: #E51E25;
+		padding: 0px 16px;
+	}
+	.primary:hover{
+		color: white;
+		border: 1px solid #C3191F;
+		border-radius: 4px;
+		background-color: #C3191F;
+		padding: 0px 16px;
+	}
+	.secondary{
+		color: #E51E25;
+		border: 1px solid #E51E25;
+		border-radius: 4px;
+		background: none;
+		padding: 0px 18px;
+	}
+	.secondary:hover{
+		color: #E51E25;
+		border: 1px solid #E51E25;
+		border-radius: 4px;
+		background: #e51e2513;
+		padding: 0px 18px;
+	}
+/* End of Button Styles */
+
 
 /* Style scrollbar width so that it doesn't knock designs off the grid */
 ::-webkit-scrollbar {
