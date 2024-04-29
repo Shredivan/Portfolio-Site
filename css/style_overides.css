@@ -74,7 +74,7 @@ body {
 		cursor: pointer;
 	}
 	a{
-		color: #58595B;
+		color: #E51E25;
 		text-decoration: underline;
 		letter-spacing: .5px;
 		word-spacing: 2px;
@@ -114,9 +114,9 @@ body {
 	.panel-heading{
 		background: url(../image/starskyhutch.png) no-repeat top center;
 		-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
 		padding: 0;
 		height: 200px;
 		max-height: 200px;
