@@ -5,8 +5,8 @@
 body {
 	background:#fff url(../image/Homepage_Background-04.png) 0px 0px;
 	font-family: 'Titillium Web', Helvetica, Arial, Sans-serif;
-	font-size: 25px;
-	line-height: 40px;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 /* Navigation Styles */
@@ -17,10 +17,10 @@ body {
 		background: none;
 		border: none;
 		color: #E51E25;
-		height: 72px;
-		max-height: 72px;
+		height: 65px;
+		max-height: 65px;
 		font-weight: 400;
-		margin-top: 42px;
+		margin-top: 23px;
 	}
 	.navbar-default a,
 	.navbar-brand,
@@ -28,7 +28,7 @@ body {
 	.navbar-default .navbar-nav>li>a{
 		letter-spacing:.4px;
 		word-spacing: 2px;
-		font-size: 20px;
+		font-size: 16px;
 		text-decoration: none;
 		color: #E51E25;
 	}
@@ -46,31 +46,31 @@ body {
 
 /* General Styles */
 	h1{
-		font-size: 42px;
-		line-height: 60px;
+		font-size: 32px;
+		line-height: 40px;
 		font-weight: bold;
 		color: #58595B;
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
 	h2{
-		font-size: 30px;
+		font-size: 16px;
 		font-weight: bold;
-		line-height: 40px;
-		color: #58595B;
+		line-height: 20px;
+		color: #E51E25;
 	}
 	h3{
-		font-size: 24px;
+		font-size: 16px;
 		font-weight: bold;
-		line-height: 40px;
+		line-height: 20px;
 		color: #58595B;
 	}
 	p{
 		color: #58595B;
 		letter-spacing: .2px;
-		font-size: 20px;
-		line-height: 38px;
-		margin-bottom: 25px;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 20px;
 	}
 	.introduction a{
 		color: #58595B;
@@ -105,11 +105,17 @@ body {
 	.margin-top-6{
 		margin-top: 6px;
 	}
+	.margin-top-16{
+		margin-top: 16px;
+	}
 	.margin-top-20{
 		margin-top: 20px;
 	}
-	.margin-left-15{
-		margin-left: 15px;
+	.margin-left-16{
+		margin-left: 16px;
+	}
+	.margin-bottom-minus-4{
+		margin-bottom: -4px;
 	}
 
 	/* Colors */
@@ -137,35 +143,35 @@ body {
 
 /* Button Styles */
 	button{
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.primary{
 		color: white;
 		border: 1px solid #E51E25;
 		border-radius: 4px;
 		background-color: #E51E25;
-		padding: 0px 16px;
+		padding: 9px 23px;
 	}
 	.primary:hover{
 		color: white;
 		border: 1px solid #C3191F;
 		border-radius: 4px;
 		background-color: #C3191F;
-		padding: 0px 16px;
+		padding: 9px 23px;
 	}
 	.secondary{
 		color: #E51E25;
 		border: 1px solid #E51E25;
 		border-radius: 4px;
 		background: none;
-		padding: 0px 18px;
+		padding: 9px 27px;
 	}
 	.secondary:hover{
 		color: #E51E25;
 		border: 1px solid #E51E25;
 		border-radius: 4px;
 		background: #e51e2513;
-		padding: 0px 18px;
+		padding: 9px 27px;
 	}
 /* End of Button Styles */
 
