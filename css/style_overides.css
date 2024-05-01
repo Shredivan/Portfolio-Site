@@ -256,11 +256,19 @@ img{
 	}
 /* End of Button Styles */
 
-/* Project Description Styles */
+/* Project Styles */
 .project-description h2{
 	padding-top: 4px;
 }
-/* End of Project Description Styles */
+.source{
+	background: #fff url(../image/source.png);
+	background-clip: content-box;
+	background-size: contain;
+	height: 500px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* End of Project Styles */
 
 /* Footer Styles */
 
