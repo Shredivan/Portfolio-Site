@@ -260,13 +260,29 @@ img{
 .project-description h2{
 	padding-top: 4px;
 }
-.source{
-	background: #fff url(../image/source.png);
+.project-images .source{
+	background: #fff url(../image/source.png) no-repeat;
 	background-clip: content-box;
-	background-size: contain;
+	background-size: cover;
+	height: 500px; 
+}
+.project-images .glofox{
+	background: #fff url(../image/glofox.png) no-repeat;
+	background-clip: content-box;
+	background-size: cover;
+	height: 419px;
+}
+.project-images .storyful{
+	background: #fff url(../image/storyful.png) no-repeat;
+	background-clip: content-box;
+	background-size: cover;
+	height: 428px;
+}
+.project-images .patientbuddy{
+	background: #fff url(../image/patientbuddy.png) no-repeat;
+	background-clip: content-box;
+	background-size: cover;
 	height: 500px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 /* End of Project Styles */
 
