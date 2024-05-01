@@ -262,6 +262,20 @@ img{
 }
 /* End of Project Description Styles */
 
+/* Footer Styles */
+
+.footer hr{
+	border-top: 1px solid #E51E25;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 22px;
+}
+.footer .email{
+	text-align: right;
+}
+
+/* End of Footer Styles */
+
 /* Style scrollbar width so that it doesn't knock designs off the grid */
 ::-webkit-scrollbar {
   width: 1px;
