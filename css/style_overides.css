@@ -344,11 +344,39 @@ img{
 	.project-description h2{
 		margin-top: 20px;
 	}
-	.project-description .glofox-heading{
-		margin-top: 18px;
+	/* .project-description .glofox-heading{
+		margin-top: 20px;
 	}
 	.project-description .patientbuddy-heading{
-		margin-top: 18px;
+		margin-top: 20px;
+	} */
+
+	.project-images .patientbuddy{
+		background: #fff url(../image/patientbuddy.png) no-repeat;
+		background-clip: content-box;
+		background-size: cover;
+		height: 499px;
+		width: 492px;
+	}
+	.project-images .source{
+		background: #fff url(../image/source.png) no-repeat;
+		background-clip: content-box;
+		background-size: cover;
+		height: 499px;
+		width: 492px; 
+	}
+	.project-images .glofox{
+		background: #fff url(../image/glofox.png) no-repeat;
+		background-clip: content-box;
+		background-size: cover;
+		width: 492px;
+	}
+	.project-images .storyful{
+		background: #fff url(../image/storyful.png) no-repeat;
+		background-clip: content-box;
+		background-size: cover;
+		width: 492px;
+		height: 418px;
 	}
 }
 
