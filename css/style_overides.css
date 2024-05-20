@@ -312,6 +312,12 @@ img{
 		margin-top: 3px;
 		margin-left: 10px;
 	}
+	.col-xs-5 {
+		padding-left: 20px;
+	}
+	.col-xs-7{
+		padding-right: 18px;
+	}
 	.col-xs-12 {
 		padding-left: 20px;
 		padding-right: 12px;
@@ -327,6 +333,11 @@ img{
 	}
 	.margin-bottom-150{
 		margin-bottom: 90px;
+	}
+	.footer hr{
+		margin-left: 20px;
+		margin-right: 18px;
+		margin-bottom: 22px;
 	}
 }
 
