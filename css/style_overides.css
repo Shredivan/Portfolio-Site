@@ -341,7 +341,7 @@ img{
 	}
 	.footer hr{
 		margin-left: 20px;
-		margin-right: 18px;
+		margin-right: 12px;
 		margin-bottom: 22px;
 	}
 	.project-description h2{
@@ -353,26 +353,26 @@ img{
 		background-clip: content-box;
 		background-size: cover;
 		height: 499px;
-		width: 492px;
+		width: 372px;
 	}
 	.project-images .source{
 		background: #fff url(../image/source.png) no-repeat;
 		background-clip: content-box;
 		background-size: cover;
 		height: 499px;
-		width: 492px; 
+		width: 372px; 
 	}
 	.project-images .glofox{
 		background: #fff url(../image/glofox.png) no-repeat;
 		background-clip: content-box;
 		background-size: cover;
-		width: 492px;
+		width: 372px;
 	}
 	.project-images .storyful{
 		background: #fff url(../image/storyful.png) no-repeat;
 		background-clip: content-box;
 		background-size: cover;
-		width: 492px;
+		width: 372px;
 		height: 418px;
 	}
 }
