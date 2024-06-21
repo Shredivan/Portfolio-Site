@@ -378,7 +378,11 @@ iframe{
 /* Mobile Styles */
 
 @media only screen and (max-width: 600px){
-	.navbar-default{
+	.container{
+		max-width: 400px;
+	}
+}
+/*	.navbar-default{
 		margin-top: 3px;
 	}
 	.col-xs-5 {
@@ -445,7 +449,7 @@ iframe{
 		width: 372px;
 		height: 418px;
 	}
-}
+} */
 
 
 /* End of Mobile Styles */
