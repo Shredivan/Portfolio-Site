@@ -381,7 +381,14 @@ iframe{
 	.container{
 		max-width: 400px;
 	}
+	.navbar-default a,
+	.navbar-brand,
+	.navbar-default .navbar-brand,
+	.navbar-default .navbar-nav>li>a{
+		padding-left: 0;
+	}
 }
+
 /*	.navbar-default{
 		margin-top: 3px;
 	}
@@ -394,12 +401,6 @@ iframe{
 	.col-xs-12 {
 		padding-left: 20px;
 		padding-right: 12px;
-	}
-	.navbar-default a,
-	.navbar-brand,
-	.navbar-default .navbar-brand,
-	.navbar-default .navbar-nav>li>a{
-		padding-left: 0;
 	}
 	.margin-top-60{
 		margin-top: 56px;
